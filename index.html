@@ -1,0 +1,222 @@
+<!DOCTYPE html><!--21861018 김선아 -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+  </head>
+  <style>
+    * {
+      box-sizing:border-box;
+      margin:0;
+      padding:0;
+
+    }
+
+    ul {
+      list-style-type:none;
+
+    }
+
+    body {
+      font-family:"맑은 고딕", "돋움";
+      font-size:12px;
+      width:960px;
+      margin:0 auto;
+
+
+    }
+
+    [class*="c_"] {
+      float:left;
+      padding:10px;
+
+    }
+
+    /* 너비가 600픽셀 미만인 스마트폰을 위한 기본 설정 */
+    [class*="c_"] {
+      width:100%;
+
+    }
+
+    /* 너비가 600픽셀 이상인 태블릿을 위한 설정 */
+    @media only screen and (min-width:600px) {
+      .c_m_1 {width:8.33%;}
+      .c_m_2 {width:16.66%;}
+      .c_m_3 {width:25%;}
+      .c_m_4 {width:33.33%;}
+      .c_m_5 {width:41.66%;}
+      .c_m_6 {width:50%;}
+      .c_m_7 {width:58.33%;}
+      .c_m_8 {width:66.66%;}
+      .c_m_9 {width:75%;}
+      .c_m_10 {width:83.33%;}
+      .c_m_11 {width:91.66%;}
+      .c_m_12 {width:100%;}
+    }
+
+    /* 너비가 768픽셀 이상인 데스크톱 컴퓨터, 노트북 등 */
+    @media only screen and (min-width:768px) {
+      .c_1 {width:8.33%;}
+      .c_2 {width:16.66%;}
+      .c_3 {width:25%;}
+      .c_4 {width:33.33%;}
+      .c_5 {width:41.66%;}
+      .c_6 {width:50%;}
+      .c_7 {width:58.33%;}
+      .c_8 {width:66.66%;}
+      .c_9 {width:75%;}
+      .c_10 {width:83.33%;}
+      .c_11 {width:91.66%;}
+      .c_12 {width:100%;}
+    }
+
+    .line {
+      margin-top:25px;
+      width:960px;
+
+      border:solid 1px #e5e5e5;
+
+    }
+
+    header {
+      height:80px;
+      padding:20px;
+      background-color:#ffffff;
+      color:#5a3a71;
+
+    }
+
+    aside#menu {
+      width:150px;
+      color:#434343;
+
+    }
+
+    aside#menu li {
+      padding:10px;
+      margin:5px 0 0 0;
+      background-color:#ffffff;
+
+    }
+
+
+    section#main {
+      padding:15px;
+
+    }
+
+    section#main h1 {
+      color:#5a3a71;
+      margin-top:10px;
+      font-size:24px;
+      letter-spacing:.02em;
+      line-height:130%;
+
+
+    }
+    section#main p {
+      font-size:12px;
+      margin-top:20px;
+      letter-spacing:.02em;
+      line-height:130%;
+
+    }
+
+    section img {
+      margin-bottom:30px;
+      text-align:center;
+
+    }
+
+    section#sub {
+      text-align:left;
+      padding:15px;
+
+    }
+
+    section#sub table {
+      margin-left:100px;
+      width:810px;
+    }
+
+
+
+    #botton {
+      font-family: 'Noto Sans KR', sans-serif;
+      position:absolute;
+      right: 280px;
+
+    }
+
+    .top:link {
+      color:#3b3b3b;
+      font-weight:bold;
+      font-size:13px;
+
+    }
+
+    .top:visited {
+      color:#3b3b3b;
+      font-weight:bold;
+      font-size:13px;
+
+    }
+
+    .top:hover {
+      font-style:italic;
+      font-weight:bold;
+      font-size:13px;
+
+    }
+
+    .top:active {
+      color:#b7b7b7;
+      font-size:13px;
+
+    }
+
+    footer {
+      height:60px;
+      padding:10px;
+      clear:both;
+      text-align:center;
+      background-color:#ffffff;
+
+    }
+
+</style>
+
+  <body>
+    <header class="c12">
+      <div class="top"></div>
+      <h1><a href="./index.html"><img src="./img/logo.png"></h1>
+    </header>
+
+    <aside id="menu" class="c_m_3 c_3">
+      <ul>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./project.html">Project</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+    </aside>
+
+    <section id="main" class="c_m_9 c_6">
+      <img src="./img/main.png">
+      <h1>Design Folio</h1>
+      <p>APP UI/UX Design, Publishing, Icon, Typography Design<br>
+        Visual Communication / UI·UX Design / Web Publishing</p>
+        <div class="line"></div>
+    </section>
+
+    <footer class="c12">
+      COPYRIGHT(C) 김선아 All Rights Reseved.
+      <div id="botton">
+          <p><a class="top" href="#top">top</a></p>
+      </div>
+
+    </footer>
+
+
+  </body>
+</html>
